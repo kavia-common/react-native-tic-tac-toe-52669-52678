@@ -1,0 +1,17 @@
+: '
+This file is an Expo-managed Gradle wrapper *stub*.
+
+Some CI systems may invoke it as:
+  ./gradlew
+which requires executable permissions, or as:
+  sh ./gradlew
+
+To generate a real native Android project + Gradle wrapper, run:
+  npm run prebuild:android
+'
+echo "No native Android Gradle wrapper found in tic_tac_toe_frontend."
+echo "This is expected for an Expo-managed project unless you run prebuild."
+echo "To generate the Android project + real wrapper, run:"
+echo "  npm run prebuild:android"
+# Exit successfully so CI systems that unconditionally invoke ./gradlew do not fail.
+exit 0

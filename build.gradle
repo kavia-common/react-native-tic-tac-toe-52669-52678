@@ -1,0 +1,9 @@
+/*
+ * Placeholder build.gradle.
+ *
+ * This repository is Expo-managed; the real Android Gradle project is generated via:
+ *   cd tic_tac_toe_frontend
+ *   npm run prebuild:android
+ *
+ * This file exists only to satisfy tooling that expects Gradle project structure.
+ */
